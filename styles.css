@@ -1,0 +1,79 @@
+body {
+  background-color: #011F3F;
+  text-align: center;
+}
+
+.container-fluid {
+  padding-top: 3%;
+}
+
+.level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  color: #FEF2BF;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.titlebtn {
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.gamebtn {
+  padding: 10% 20%;
+  margin-bottom: 5%;
+}
+
+.red {
+  background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+  background-color: red;
+}
+
+.green {
+  background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+  background-color: green;
+}
+
+.blue {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+}
+
+.yellow {
+  background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.rulebody {
+  color: black;
+  background: #FFDEAD;
+}
+
+.rules {
+  font-family: "Poppins", sans-serif;
+  color: #F9E4D4;
+  text-align: left;
+  letter-spacing: 1px;
+  grid-template-rows: repeat(5, auto);
+  display: grid;
+  grid-gap: 5px;
+  /* general styling */
+  padding: 20px 40px;
+  background: rgba(14, 25, 32, .9);
+  box-shadow: rgba(0, 0, 0, 0.3) 0 10px 50px;
+  border-radius: 20px;
+  margin-top: 5%;
+}
+
+footer {
+  color: #B3541E;
+  font-family: sans-serif;
+  padding-top: 2%;
+}
